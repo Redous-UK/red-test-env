@@ -1,0 +1,41 @@
+{
+  "name": "discord-bot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prepublish": "node util/setup.js"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcTowler/discord-bot.git"
+  },
+  "author": "Marc 'ItsLittany' Towler <marc@marctowler.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcTowler/discord-bot/issues"
+  },
+  "homepage": "https://github.com/MarcTowler/discord-bot#readme",
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "chalk": "^2.4.1",
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.1",
+    "express": "^4.16.4",
+    "fortune-tweetable": "^1.0.0",
+    "google-spreadsheet": "^2.0.7",
+    "https": "^1.0.0",
+    "klaw": "^3.0.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "open": "^6.0.0",
+    "readline-sync": "^1.4.9"
+  }
+}
