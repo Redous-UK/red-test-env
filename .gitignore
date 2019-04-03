@@ -1,0 +1,8 @@
+node_modules/*
+botconfig.json
+package-lock.json
+.idea/*
+data/*
+config.js
+config.js.example
+credentials.json
